@@ -86,7 +86,7 @@ public class Connexion {
 	private JLabel getLblNewLabel_1() {
 		if (lblNewLabel_1 == null) {
 			lblNewLabel_1 = new JLabel("Mot de Passe :");
-			lblNewLabel_1.setBounds(55, 97, 79, 14);
+			lblNewLabel_1.setBounds(30, 97, 104, 14);
 		}
 		return lblNewLabel_1;
 	}
