@@ -1,7 +1,5 @@
 package connexion;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -66,24 +64,7 @@ public class ConsulterRapport {
 	private ArrayList<Rapport> listVisu;
 	private ArrayList<Utilisateur> utilisateurs;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					//String[] visRes=new String[]{"p40", "Michel", "Responsable", "O", "SW"};
-					//String[] visVis=new String[]{"a131", "Villechalane", "Visiteur"};
-					String[] visDel=new String[]{"a17", "Andre","Délégué", "GY", "RA"};
-					ConsulterRapport window = new ConsulterRapport(visDel);
-					window.frmConsultationDeRapports.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+
 
 	/**
 	 * Create the application.
